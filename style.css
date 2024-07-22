@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+
+/* reseting section */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f0e2c5;
+}
+
+/* header section */
+.wrapper {
+  border: 1px solid #000;
+  width: 90%;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+}
+
+header h1,#our-menu h1 {
+  font-family: "Playfair Display SC", serif;
+  color: #49281a;
+  margin-bottom: 20px;
+}
+
+header p {
+  font-family: "Lato", sans-serif;
+  margin-bottom: 10px;
+}
+
+header a {
+  display: block;
+  background-color: #49281a;
+  color: #fff;
+  margin: 10px auto;
+  width: 180px;
+  height: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  border-radius: 8px;
+}
+/* nav section */
+
+nav{
+    text-align: center;
+}
+
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
+  font-family: "lato", sans-serif;
+}
+nav ul li a {
+  color: #000;
+  text-decoration: none;
+  border: 1px solid #000;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  box-shadow: 2px 2px 2px 2px #000;
+}
+
+/* menu section */
+
+.menu{
+    font-family: "lato", sans-serif;  
+}
+
+.menu h2{
+    margin-bottom: 10px;
+}
+.menu .container {
+    text-align: center;
+  }
+  .card {
+    border: 1px solid #000;
+    width: 250px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 10px;
+  }
+  .card .card-img-top {
+    max-width: 100%;
+    border-radius: 8px;
+    width: 200px;
+  height: 200px;
+  }
+  .card .card-title {
+    margin: 10px 0;
+  }
+  .card .card-text{
+      line-height: 1.5em;
+  }
+  .price{
+      font-weight: bold;
+      font-style: italic;
+  }
+  .card .btm{
+      display: block;
+      background-color: #49281a;
+      color: #fff;
+      padding: 10px 0;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: 4ms;
+  }
+
+  .card .btm:hover {
+    box-shadow: 2px 2px 2px 2px #000;
+  }
+  
