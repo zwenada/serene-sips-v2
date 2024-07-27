@@ -5,6 +5,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+html{
   background-color: #f0e2c5;
 }
 
@@ -14,16 +16,35 @@
   width: 90%;
   margin: 30px auto;
   padding: 20px;
+  background-color: #f0e2c5;
 }
 
 header {
+  margin-bottom: 20px;
+  padding: 20px;
   text-align: center;
+  background-image: url(images/cafe-cover.jpeg);
+  background-repeat: repeat;
+  background-size: contain;
+  background-position: center;
+  color: white;
+  font-size: large;
+  text-shadow: 1.5px 1.5px 1.5px black;
 }
 
-header h1,#our-menu h1 {
+header h1 {
   font-family: "Playfair Display SC", serif;
-  color: #49281a;
+  color: white;
   margin-bottom: 20px;
+ 
+}
+
+#our-menu h1 {
+  font-family: "Playfair Display SC", serif;
+  color:  #6F4E37;
+  margin-bottom: 20px;
+  text-shadow: 1.5px 1.5px 1.5px black ;
+ 
 }
 
 header p {
@@ -41,7 +62,13 @@ header a {
   line-height: 40px;
   text-decoration: none;
   border-radius: 8px;
+  transition: 0.4ms;
 }
+
+header a:hover{
+  box-shadow: 2px 2px 2px 2px black;
+}
+
 /* nav section */
 
 nav{
@@ -118,4 +145,11 @@ nav ul li a:hover {
   .card .btm:hover {
     box-shadow: 2px 2px 2px 2px #000;
   }
+  
+  .about, .contact {
+    line-height: 1.5em;
+    text-indent: 30px;
+    text-align: justify;
+  }
+
   
